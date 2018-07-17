@@ -1,0 +1,104 @@
+cmd +  K >> clear the window clear
+
+control + A >> move the cursor start
+
+control + e >> end of the line
+
+alt + click >> move to the point
+
+command structure:
+
+Command options argumets
+
+Whats Kernels:
+
+> its a brain of the OS and
+> it will allocate memory and time to your program
+
+
+whats Shell:
+>send our requessts to Kernel its outer layer
+
+download Oh my shell
+
+Manual:
+	man echo
+
+File System:
+
+	~ >> your in username
+
+	pwd
+	ls
+	ls -l >> more details about the files
+	ls -lah >> list of files with size
+	cd / >> home directory
+	cd ~ >> go to user directory
+	cd - >> previous place
+	touch >> create a file
+	echo 'test' > file1.txt >> will add this line in file
+	nano koushan.txt >> will create and edit file
+	cat >> read file and compare two files
+		cat koushan.txt koushan2.txt
+	less >> read file page by page
+		less -M koushan.txt >> show %
+		less -N koushan.txt >> line number
+	head koushan.txt >> first 10 lines
+	tail koushan.txt >> last 10 lines
+		tail -f koushan.txt >> will wait for new change
+	cp >> copy file to another directory
+	.. >> going back to prev dirctory
+	rm >> remove file only
+		rm -r directory >> will remove the directory OR
+
+	Link a file:
+			lets say we have file text.txt
+	    ln text.txt new_link.txt
+			now if i change the text.txt automaticly
+	this is much better than a alice becouse of the file size
+
+	symlink >> if you want the file get deleted when origanl
+			   file is also get deleted
+		ln -s link.txt symlink.txt
+
+	find
+		find test.???
+		find tes*
+
+	whereis >> where
+	which python
+
+	python --version
+
+	uptime >> shows how much the computer is running
+
+	who >> shows the number of users
+	df -H >> shows the harddrive capacity
+
+	touch >> to create a new file
+		touch text.txt
+
+
+	create a directory
+		mkdir testdir >> crete one dirctory
+		mkdir -p koushan1/koushan2/koushan3
+
+
+
+For file deatils:
+	-d means directory
+	- files
+	.dsstore >> deatisl about folder(size,etc.)
+	.bin binary files
+
+
+
+
+
+
+
+
+
+
+
+
