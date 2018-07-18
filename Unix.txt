@@ -78,10 +78,20 @@ File System:
 	touch >> to create a new file
 		touch text.txt
 
+	ps shows the number of processe
+		ps -a >>
 
 	create a directory
 		mkdir testdir >> crete one dirctory
 		mkdir -p koushan1/koushan2/koushan3
+
+	ps aux >> shows the number of active process
+
+	top >> shows the number of active process live
+		top -n 10 -o cpu -s 10
+
+
+
 
 
 
