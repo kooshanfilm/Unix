@@ -90,6 +90,10 @@ File System:
 	top >> shows the number of active process live
 		top -n 10 -o cpu -s 10
 
+	force quit:
+		kill PID
+		kill -9 PIP
+
 
 
 
