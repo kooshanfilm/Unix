@@ -94,6 +94,25 @@ File System:
 		kill PID
 		kill -9 PIP
 
+	file:
+		read file:
+			cat txt.txt
+		number of lines
+			wc txt.txt  line word character
+	Math and others:
+		cal >> calender
+		cal 12 2020
+		cal -y 2012
+
+	short cuts:
+		history
+			!464
+		cat !$ >> auto fill the argument
+
+
+
+
+
 
 
 
