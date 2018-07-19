@@ -109,6 +109,25 @@ File System:
 			!464
 		cat !$ >> auto fill the argument
 
+	File permition:
+		whoami >> who's the user
+		echo $HOME >> what's the home directory
+		chown kooshan:admin a.m3u >> change the ownership to admin >> 	for files only
+		chown -R amir:staff test1 >>directory
+	sudo :
+		substidue user >> switch temprarly to root user
+		only admin can use sudo
+
+	Alpha notation and octa notation:
+		d rwxr-xr-x  >> directory
+		- rw-r--r--  >> file
+		l -rw-r--r-- >> link
+	how to read (-rw-r--r--):
+		- , rw-, r--, r--
+			on unix we devided users into 3 groups
+				users
+				groups
+				others
 
 
 
