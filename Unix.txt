@@ -139,6 +139,8 @@ File System:
 		execute = 1
 		total 7
 
+	you can output a terminal inside of a file
+		echo "hello world" > new_text_file.txt
 
 
 
