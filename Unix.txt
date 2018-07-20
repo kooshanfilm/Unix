@@ -128,6 +128,16 @@ File System:
 				users
 				groups
 				others
+	chmod:
+		chmod ugo=rwx text.txt
+		chmod u=rwx,g=rw o=r txt
+		chomd a+rwx tex.txt
+
+	Octa notation:
+		read = 4
+		write = 2
+		execute = 1
+		total 7
 
 
 
