@@ -142,6 +142,20 @@ File System:
 	you can output a terminal inside of a file
 		echo "hello world" > new_text_file.txt
 
+    Combining two files into one:
+    	cat file1.txt file2.txt > join_file.txt
+
+    appending into the file (adding a new line):
+    	echo 'koushan' >> peopel.txt
+
+    | >> Pipe
+
+    !! >> will do the priviouse command
+
+    /dev/null/ is place that nobody can have access to it
+    	why do you need it:
+    		you can output stuff that you dont
+    		want to be visible to public
 
 
 
