@@ -157,7 +157,34 @@ File System:
     		you can output stuff that you dont
     		want to be visible to public
 
+    create  aalias:
+    	alias hello="echo 'unix'"
+    	create a global zlias you should go to
 
+    	nano ~/zschrc and add your alias
+    		note if you don't add export =
+    			then it will only works in the existing window(zshel)
+
+    Grep:
+    	grep text file.txt >> case sensetive
+    	grep -i text file.txt >> anything
+    	grep -i "text" file.txt >> exact word
+    	grep -v "text" file.txt >> all the words that doesn't have text
+    	grep -ic "text" file.txt >> will count the number of text in 	the file
+    	grep -iR "test" /Users/Kooshan/Downloads
+
+    Search:
+    	ls *.txt
+    	cat tv_channels_kooshanfilm1\ \(1\).m3u | grep -i "test "
+
+    TR:
+    	echo 'a,b,c' | tr ',' '-' >> repelacing
+    	echo '12343232' | tr '123456' 'ebgdae'
+
+    Sed:
+    	echo 'upstream' | sed 's:up:K:'
+    		Kstream
+    	sed 's:t:T:' u.txt
 
 
 
