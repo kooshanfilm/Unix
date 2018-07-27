@@ -181,13 +181,36 @@ File System:
     	echo 'a,b,c' | tr ',' '-' >> repelacing
     	echo '12343232' | tr '123456' 'ebgdae'
 
-    Sed:
+    Sed: >> substitude
     	echo 'upstream' | sed 's:up:K:'
     		Kstream
     	sed 's:t:T:' u.txt
 
+    	echo 'thip is ppst a pest' | sed 's:p:P:g' >> g means globaly
 
+    Cut:
+    	cut -c 2-10 test.txt
+    	cut -c 1-3,5-10  k2.py
 
+    Diff:
+    	diff file_1.txt file_2.txt
+    	diff -y file_1.txt file_2.txt >> side by side
+
+    xargs:
+    	cho 'file_1.m3u file_2.txt' | xargs wc
+    		will  count words in the file not the ''
+
+    bash profile :
+
+    	~/.zshrc
+    		to create an alias you should go to the bash profile
+    		and ceate an alias:
+    		recall alias
+    		alias subl="sublime"
+
+    pbcopy:
+    	copying anything into memory
+    		ls | pbcopy
 
 
 For file deatils:
