@@ -212,6 +212,21 @@ File System:
     	copying anything into memory
     		ls | pbcopy
 
+    pbpaste:
+    	will paste the content
+
+    general find font ruller:
+    	echo "fisr" | pbcopy -pboard general
+		echo "second" | pbcopy -pbboard find
+
+	say:
+		say "yo hows it going"
+		say -f u.txt -o audio.aiff >> convert the file to audio file
+
+	mdfind: >> meta data (search)
+		mdfind -onlyin /Users/Kooshan/Documents "new"
+
+
 
 For file deatils:
 	-d means directory
