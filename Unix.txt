@@ -226,6 +226,20 @@ File System:
 	mdfind: >> meta data (search)
 		mdfind -onlyin /Users/Kooshan/Documents "new"
 
+	mdls:
+		mdls file_name.txt >> you will see the details of
+			the file
+	Apple scrip:
+
+	plist:
+		all sysytem is in the perefrences
+		prefrence list >> plist
+
+	how to show the hiden files :
+		defaults write com.apple.finder AppleShowAllFiles true
+
+
+
 
 
 For file deatils:
