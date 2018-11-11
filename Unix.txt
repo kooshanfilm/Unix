@@ -1,32 +1,30 @@
-cmd +  K >> clear the window clear
+cmd +  K :
+    clear the window clear
 
-control + A >> move the cursor start
+control + A :
+	move the cursor start
 
-control + e >> end of the line
+control + e :
+	 end of the line
 
-alt + click >> move to the point
-
-command structure:
-
-Command options argumets
+alt + click :
+	 move to the point
 
 Whats Kernels:
-
-> its a brain of the OS and
-> it will allocate memory and time to your program
-
+	> its a brain of the OS and
+	> it will allocate memory and time to your program
 
 whats Shell:
->send our requessts to Kernel its outer layer
+	> send our requessts to Kernel its outer layer
 
-download Oh my shell
+Download Oh my shell
 
 Manual:
 	man echo
 
 File System:
 
-	~ >> your in username
+	your in username
 
 	pwd
 	ls
@@ -237,10 +235,6 @@ File System:
 
 	how to show the hiden files :
 		defaults write com.apple.finder AppleShowAllFiles true
-
-
-
-
 
 For file deatils:
 	-d means directory
